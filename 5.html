@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>الحجوزات - Ghamry Barber Shop</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="center">
+        <h1>احجز موعدك الآن</h1>
+        <form action="submit_booking.php" method="post">
+            <label for="name">الاسم:</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="phone">رقم الهاتف:</label>
+            <input type="tel" id="phone" name="phone" required>
+
+            <label for="date">اختر التاريخ:</label>
+            <input type="date" id="date" name="date" required>
+
+            <label for="time">اختر الساعة:</label>
+            <select id="time" name="time" required>
+                <option value="12:00">12:00 صباحًا</option>
+                <option value="12:30">12:30 صباحًا</option>
+                <option value="1:00">1:00 صباحًا</option>
+                <option value="9:30">9:30 مساءً</option>
+            </select>
+
+            <label for="service">اختر الخدمة:</label>
+            <select id="service" name="service" required>
+                <option value="شعر">قص الشعر</option>
+                <option value="ذقن">حلاقة الذقن</option>
+                <option value="شعر و ذقن">قص الشعر وحلاقة الذقن</option>
+            </select>
+
+            <button class="btn" type="submit">تأكيد الحجز</button>
+        </form>
+        <a href="admin_login.html">تسجيل الدخول للإدارة</a>
+    </div>
+</body>
+</html>

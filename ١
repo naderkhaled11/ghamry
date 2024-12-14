@@ -1,0 +1,10 @@
+/barber_shop_project
+    index.html                # الصفحة الترحيبية
+    booking.html              # صفحة الحجز
+    submit_booking.php        # معالجة الحجز
+    admin_login.html          # صفحة تسجيل الدخول للإدارة
+    admin.php                 # صفحة إدارة الحجوزات
+    add_holiday.php           # صفحة إضافة الإجازات
+    logout.php                # تسجيل الخروج
+    db_connection.php         # الاتصال بقاعدة البيانات
+    styles.css                # التنسيقات الموحدة
